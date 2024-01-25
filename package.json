@@ -4,9 +4,11 @@
   "description": "A simple Quiz",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open && node server.js",
+    "start": "webpack-dev-server --open",
+    "server": "node server.js",
     "build": "webpack --mode production"
   },
+  
   "babel": {
     "presets": [
       "@babel/preset-env",

@@ -16,6 +16,7 @@ class Popup extends Component {
         this.popupHandle = this.popupHandle.bind(this);
     }
     
+    
     popupHandle() {
         let { time } = this.state;
         

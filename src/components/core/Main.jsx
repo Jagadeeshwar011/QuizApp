@@ -20,6 +20,7 @@ class Main extends Component {
         this.handleIncreaseScore = this.handleIncreaseScore.bind(this);
     }
 
+    
     componentWillMount() {
         let { count } = this.state;
         this.insertData(count);

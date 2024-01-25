@@ -10,6 +10,7 @@ export default [
         correct: 1
     },
 
+    
     {
         question: 'JSX is typesafe?',
         answers: [
@@ -69,5 +70,39 @@ export default [
             'None of the Above'
         ],    
         correct: 3
-    }
+    },
+
+    {
+        question: 'How many kinds of components does react has____',
+        answers: [
+            '2',
+            '3', 
+            '5', 
+            '6'
+        ],    
+        correct: 1
+    },
+
+    {
+        question: 'In React, which function is called when a component is first created__',
+        answers: [
+            'render()',
+            'componentWillMount()',
+            'componentDidMount()',
+            'constructor()'
+        ],
+        correct: 4
+
+    },
+    {
+        question: 'What is the purpose of the `state` in React?',
+        answers: [
+          'To store data that can be changed over time and affect the component\'s rendering.',
+          'To define the initial properties of a component.',
+          'To store global variables accessible throughout the application.',
+          'To manage external API requests.',
+        ],
+        correct: 1,
+      },
+
 ]

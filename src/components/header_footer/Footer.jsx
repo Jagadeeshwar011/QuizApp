@@ -16,6 +16,7 @@ const Footer = () => {
             </Fade>
         </footer>
     );
+    
 };
 
 export default Footer;

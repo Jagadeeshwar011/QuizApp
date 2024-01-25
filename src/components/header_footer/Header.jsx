@@ -14,6 +14,7 @@ const styles = {
     marginLeft: -18,
     marginRight: 10,
   },
+  
   color:{
     backgroundColor: '#3c3c3c',
   },
